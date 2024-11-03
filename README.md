@@ -1,6 +1,7 @@
-## #!/usr/bin/python
-# -*- coding: utf-8 -*-
+![data]([ruta/a/la/imagen.jpg](https://img.freepik.com/vector-gratis/analisis-rendimiento-empresarial-graficos_53876-59914.jpg?t=st=1730672555~exp=1730676155~hmac=dbbf08cd638044ab1fd7e9bcd60d7b7b8db048586db271106e5c639aceef49e4&w=740))
 
+!/usr/bin/python
+-*- coding: utf-8 -*-
 
 class DataAnalyst:
 

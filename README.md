@@ -1,17 +1,32 @@
-## Hi there 👋
+## #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**Daniela-Vi/Daniela-Vi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class DataAnalyst:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-okijdgjk
+    def __init__(self):
+        self.name = "Daniela"
+        self.role = "Data Analyst"
+        self.skills = [
+            "Python", 
+            "SQL", 
+            "MySQL", 
+            "Tableau", 
+            "Power BI"
+        ]
+        self.expertise = [
+            "Data Cleaning", 
+            "ETL Processes", 
+            "Business Analysis"
+        ]
+        self.focus = "Continuous improvement and innovation to optimize processes and generate key insights."
+
+    def say_hi(self):
+        print("Hi there 👋")
+        print(f"I'm {self.name}, a {self.role} with a strong foundation in {', '.join(self.skills)}.")
+        print("With experience in " + ", ".join(self.expertise) + ", I'm passionate about " + self.focus)
+        print("\nFeel free to reach out if you'd like to collaborate on data-driven projects!")
+
+
+me = DataAnalyst()
+me.say_hi()
